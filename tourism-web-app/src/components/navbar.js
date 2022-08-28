@@ -11,7 +11,7 @@ function navbar() {
     //Updated main from web
     //Deploy to main
     //New fixes 
-    //Readd fixes
+    //Readd fixes 
   )
 }
 
