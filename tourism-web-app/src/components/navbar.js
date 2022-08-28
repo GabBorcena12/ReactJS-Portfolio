@@ -10,6 +10,7 @@ function navbar() {
     //Create new branch and commit
     //Updated main from web
     //Deploy to main
+    //Readd fix for v3.2
     //Second Fix from me 
   )
 }
