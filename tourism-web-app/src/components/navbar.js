@@ -9,6 +9,7 @@ function navbar() {
     // Update from PROD TO UAT
     //Create new branch and commit
     //Updated main from web
+    //Deploy to main
   )
 }
 
