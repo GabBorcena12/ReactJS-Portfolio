@@ -10,6 +10,7 @@ function navbar() {
     //Create new branch and commit
     //Updated main from web
     //Deploy to main
+    //New fixes
   )
 }
 
