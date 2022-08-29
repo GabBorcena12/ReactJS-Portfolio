@@ -1,8 +1,9 @@
  
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import { BrowserRouter as BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar';
+import HeroSection from './components/HeroSection';
+import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Tourist from './components/pages/Tourist';
@@ -11,14 +12,14 @@ import Tourist from './components/pages/Tourist';
 function App() {
   return ( 
     <>
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact component={<Home/>} />
-          <Route path='/services' component={<Services/>} />
-          <Route path='/tourist' component={<Tourist/>} /> 
+          <Route path='/Home' exact component={Home} />
+          <Route path='/Services' component={Services} />
+          <Route path='/Tourist' component={Tourist} /> 
         </Routes>
-      </BrowserRouter>
+      </Router> 
     </>
   );
 }
