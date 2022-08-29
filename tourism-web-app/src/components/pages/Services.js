@@ -3,8 +3,7 @@ import '../../App.css';
 
 function Services() {
   return (
-    <> 
-    </>
+    <div>Services</div>
   );
 }
 

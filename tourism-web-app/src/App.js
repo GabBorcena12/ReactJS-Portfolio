@@ -1,25 +1,27 @@
  
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import HeroSection from './components/HeroSection';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css'; 
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Tourist from './components/pages/Tourist';
-
+import Spots from './components/pages/Spots';
+import Events from './components/pages/Events';
 
 function App() {
   return ( 
     <>
-      <Router>
+      <BrowserRouter>
         <Navbar />
-        <Routes>
-          <Route path='/Home' exact component={Home} />
-          <Route path='/Services' component={Services} />
-          <Route path='/Tourist' component={Tourist} /> 
+        <Routes> 
+            <Route path="Home" element={<Home />} />
+            <Route path="Services" element={<Services />} />
+            <Route path="Tourist" element={<Tourist />} />
+            <Route path="Spots" element={<Spots />} />
+            <Route path="Events" element={<Events />} /> 
         </Routes>
-      </Router> 
+      </BrowserRouter> 
     </>
   );
 }

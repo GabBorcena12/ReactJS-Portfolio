@@ -1,10 +1,13 @@
 import React from 'react';
-import { Button } from './Button';
+import { Button } from './Button'; 
+import './HeroSection.css';
+ 
+ 
 
 function HeroSection() {
   return (
-        <>
-            <video src='C:\Users\gabri\OneDrive\Documents\GitHub\ReactJS-Portfolio\tourism-web-app\public\videos\video-0002.mp4'  autoPlay loop muted/>
+    <div className='hero-container'>
+      <video src='/videos/video-0002.mp4' autoPlay loop muted /> 
             <h1>ADVENTURE AWAITS</h1>
             <p>What are you waiting for?</p>
             <div className='hero-btns'>
@@ -24,8 +27,8 @@ function HeroSection() {
                 WATCH TRAILER <i className='far fa-play-circle' />
                 </Button>
         </div>
-      </>
+      </div>
   )
 }
 
-export default HeroSection
+export default HeroSection;
