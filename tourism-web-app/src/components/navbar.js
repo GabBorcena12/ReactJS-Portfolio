@@ -30,7 +30,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <img src='src\components\images\dot-logo.png' className="App-logo" alt="logo" />
+          <img src='/images/dot-logo.png' className="App-logo" alt="logo" />
            
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>

@@ -42,22 +42,22 @@ function Footer() {
           </div> 
           <div className='footer-link-items'>
             <h2>FOREIGN OFFICES</h2>
-            <Link to='/'><img src='https://philippines.travel/images/flags/australia.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Australia</span></Link>
-            <Link to='/'><img src='https://philippines.travel/images/flags/china.png' />&nbsp;&nbsp;<span className='img-flag-txt'>China</span></Link>
-            <Link to='/'><img src='https://philippines.travel/images/flags/germany.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Germany</span></Link>
-            <Link to='/'><img src='https://philippines.travel/images/flags/japan.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Japan</span></Link>
-            <Link to='/'><img src='https://philippines.travel/images/flags/south-korea.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Korea</span></Link>
-            <Link to='/'><img src='https://philippines.travel/images/flags/russia.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Russia</span></Link>
-            <Link to='/'><img src='https://philippines.travel/images/flags/taiwan.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Taiwan</span></Link>
-            <Link to='/'><img src='https://philippines.travel/images/flags/united-kingdom.png' />&nbsp;&nbsp;<span className='img-flag-txt'>UK</span></Link>
-            <Link to='/'><img src='https://philippines.travel/images/flags/united-states-of-america.png' />&nbsp;&nbsp;<span className='img-flag-txt'>USA</span></Link> 
+            <Link to='/'><img src='/images/australia.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Australia</span></Link>
+            <Link to='/'><img src='/images/china.png' />&nbsp;&nbsp;<span className='img-flag-txt'>China</span></Link>
+            <Link to='/'><img src='/images/germany.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Germany</span></Link>
+            <Link to='/'><img src='/images/japan.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Japan</span></Link>
+            <Link to='/'><img src='/images/south-korea.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Korea</span></Link>
+            <Link to='/'><img src='/images/russia.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Russia</span></Link>
+            <Link to='/'><img src='/images/taiwan.png' />&nbsp;&nbsp;<span className='img-flag-txt'>Taiwan</span></Link>
+            <Link to='/'><img src='/images/united-kingdom.png' />&nbsp;&nbsp;<span className='img-flag-txt'>UK</span></Link>
+            <Link to='/'><img src='/images/united-states-of-america.png' />&nbsp;&nbsp;<span className='img-flag-txt'>USA</span></Link> 
           </div> 
         </div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <img src='https://philippines.travel/images/dot-logo.png'/>
+            <img src='/images/dot-logo.png'/>
               <h6 style={whitetext}>Copyright © 2022</h6>
             </div> 
           <div className='social-icons'>
