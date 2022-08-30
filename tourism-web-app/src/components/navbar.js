@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './button';
+import React, { useState, useEffect } from 'react'; 
 import { Link } from 'react-router-dom';
-import './navbar.css';
+import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -31,17 +30,17 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <img src='https://philippines.travel/images/dot-logo.png' className="App-logo" alt="logo" />
+          <img src='/images/dot-logo.png' className="App-logo" alt="logo" />
            
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
                 See and Do
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/Tourist'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -50,7 +49,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/Events'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -59,7 +58,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/tourist'
+                to='/Services'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -68,7 +67,7 @@ function Navbar() {
             </li>
             <li className='nav-item' style={buttonStyles}>
               <Link
-                to='/tourist'
+                to='/Spots'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

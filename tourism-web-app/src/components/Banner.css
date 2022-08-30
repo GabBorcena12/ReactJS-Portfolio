@@ -1,0 +1,38 @@
+  .banner-wrapper {
+        display: flex;     
+        background-image: url('/images/Banner1.jpg');  
+        object-fit:cover;
+        width: 100%; 
+  } 
+  .bannerImageLogo{
+    width: 100%;
+    display: flex;
+  }
+  .banner-overlay{
+    background-color: #0000007d;
+    display: flex;  
+    object-fit: cover;
+    width: 100%; 
+    
+    padding: 5rem;
+  }
+  .banner-items-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;   
+    padding-top: 5%;
+    margin-right: 4rem;
+    width: 60vh;
+    box-sizing: border-box;
+    color:white;
+  }
+  .banner-items-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 4rem;
+    width: 60vh;
+    box-sizing: border-box;
+    color:white;
+  }
+  

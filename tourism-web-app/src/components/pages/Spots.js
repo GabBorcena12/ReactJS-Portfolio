@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../App.css'; 
 
-function Tourist() {
+function Spots() {
   return (
-    <div>Tourist</div>
+    <div>Spots</div>
   )
 }
 
-export default Tourist;
+export default Spots;
