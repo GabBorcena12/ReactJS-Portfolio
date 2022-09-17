@@ -4,6 +4,7 @@ import CardsText from '../CardsText';
 import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 import Banner from '../Banner';
+import CardsPicture from '../CardsPicture';
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <HeroSection />
             <CardsText />
             <Banner />
+            <CardsPicture />
             <Footer />
         </>
       );

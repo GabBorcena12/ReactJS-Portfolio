@@ -4,35 +4,79 @@
         object-fit:cover;
         width: 100%; 
   } 
-  .bannerImageLogo{
-    width: 100%;
-    display: flex;
-  }
+  
+  .banner-items-left img{
+    float:left;
+    width: 50px;
+    height: 50px;  
+  } 
+  .banner-items-left h2{
+    float:left;
+    width: 30rem;  
+  } 
+ 
   .banner-overlay{
-    background-color: #0000007d;
+    background-color: #000000be;
     display: flex;  
     object-fit: cover;
-    width: 100%; 
-    
-    padding: 5rem;
+    width: 100%;  
+    padding: 5rem;   
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(1, 1fr); 
+    display: grid; 
+    gap: 1rem; 
   }
-  .banner-items-left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;   
-    padding-top: 5%;
-    margin-right: 4rem;
-    width: 60vh;
-    box-sizing: border-box;
+   
+  
+  .banner-items-left {    
+    text-align: center;
+    justify-self: center;
+    flex-direction: column; 
+    justify-content: flex-end;
+    font-size: 1.5rem; 
+    padding-top: 5%; 
     color:white;
+    overflow: auto;
+    overflow-x: hidden;
   }
-  .banner-items-right {
+  .banner-items-right {      
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
-    margin-left: 4rem;
-    width: 60vh;
     box-sizing: border-box;
     color:white;
   }
+  .withIndent{      
+    text-indent: 1rem;
+  }
+
+  .banner-items-right p {
+    margin-bottom: 1rem;
+  }
   
+@media screen and (max-width:1385px) {
+  .banner-wrapper {  
+    background-image: url('/images/Banner1.jpg');  
+    object-fit:cover;
+    width: 100%; 
+  } 
+  .banner-overlay{   
+    padding: 3rem;   
+    grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(1, 1fr); 
+    display: grid; 
+    gap: 1rem; 
+  }
+  .banner-items-left {  
+    color: white;
+    grid-column: 1/2;
+    grid-row: 1/2;  
+    align-items: flex-start;   
+  }
+  .banner-items-right {  
+    color: white;
+    grid-column: 1/2;
+    grid-row: 2/3; 
+    align-items: flex-start;   
+  }
+}

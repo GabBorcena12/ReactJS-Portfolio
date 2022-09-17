@@ -153,10 +153,39 @@ body{
 }
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 1725px) and (min-width: 633px)  {  
+    .col {
+        
+        height: 100vh;
+    } 
+}  
+@media screen and (max-width: 632px) and (min-width: 0px)  {  
+     
+    .col {
+        font-size: 0.8rem;
+    } 
     .btnReadMore{
-        width: 20vw;
-        height: 5vh;
+        width: 10vw; 
+        border-radius: 1.0rem;
+        border: solid;
+        border-width: 0.1rem;
+        color: black;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .btnReadMore:hover{
+        width: 10vw; 
+        border-radius: 1.0rem;
+        border: solid;
+        border-width: 0.1rem;
+        color: white;
+        background-color: rgb(10, 10, 10);
+    }
+}  
+@media screen and (max-width:1095px) { 
+      
+    .btnReadMore{
+        width: 20vw; 
         border-radius: 1.5rem;
         border: solid;
         border-width: 0.1rem;
@@ -165,8 +194,7 @@ body{
     }
     
     .btnReadMore:hover{
-        width: 20vw;
-        height: 5vh;
+        width: 20vw; 
         border-radius: 1.5rem;
         border: solid;
         border-width: 0.08rem;
@@ -193,40 +221,48 @@ body{
         color: rgb(255, 255, 255);
         background-color: rgb(6, 152, 250);;
     }
+     
     .container{   
         grid-template-columns: 1fr;
-        grid-template-rows: 8fr;
+        grid-template-rows: 5fr;
+ 
+        padding-left: 1rem;
+        padding-right: 1rem; 
     
+    }
+    .col { 
+        height: 60vh;
+    }
+    .col > h3 {
+        color: rgb(12, 12, 12);
+        text-align: center;
+        padding-top: 1rem;
     }
     .container > *:nth-child(1){   
         grid-column: 1/2;
         grid-row: 1/2; 
-        background-color: white; 
-        padding: 1rem;  
+        background-color: white;  
     }
     .container > *:nth-child(2){  
         grid-column: 1/2;
         grid-row: 2/3; 
-        background-color: white; 
-        padding: 1rem;  
+        background-color: white;  
     }
     .container > *:nth-child(3){  
         grid-column: 1/2;
         grid-row: 3/4; 
-        background-color: white; 
-        padding: 1rem;  
+        background-color: white;  
     }
     .container > *:nth-child(4){   
         grid-column: 1/2;
         grid-row: 4/5; 
-        background-color: white; 
-        padding: 1rem;  
+        background-color: white;  
     }
     .container > *:nth-child(5){   
         grid-column: 1/2;
         grid-row: 5/6; 
-        background-color: white; 
-        padding: 1rem;  
+        background-color: white;  
     }
+     
      
 }

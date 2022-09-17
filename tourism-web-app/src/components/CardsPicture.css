@@ -1,0 +1,267 @@
+.card-container{  
+    background-color:#242424 !important;
+    
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(1, 1fr); 
+    display: grid; 
+    gap: 2rem; 
+    padding: 2rem 2rem 0 2rem;
+    height: auto;
+}
+ 
+
+.left-card-container{
+    border-radius: 1rem; 
+    background-color:#302f2f !important; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    padding: 2rem;
+}
+
+
+.right-card-container{   
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    display: grid;  
+    padding: 2rem;
+    
+    height: 40vh;
+    border-radius: 1rem;
+    position: relative; 
+    background-color:#302f2f !important; 
+} 
+ 
+
+/*LEFT*/  
+.left-card-container h1{
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;     
+    text-align: center;
+    border-radius: 1rem;
+}
+ 
+.btnDoingBusinessPH { 
+    font-size: 1.1rem;
+    width: 15vw; 
+    padding: 1.2rem;
+    border-radius: 1rem; 
+    border-radius: 1rem;
+    border: solid;
+    border-width: 0.1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(6, 152, 250); 
+}
+
+
+ 
+
+/*RIGHT*/ 
+.right-card-container  h2 {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto; 
+    text-align: left; 
+    color: white;
+    font-size: 0.8rem; 
+    padding:1rem;
+}
+
+.right-card-container > *:nth-child(1){ 
+    display: flex;      
+    object-fit:cover; 
+    grid-column: 1/2;
+    grid-row: 1/2; 
+}
+.right-card-container > *:nth-child(2){ 
+    display: flex;      
+    object-fit:cover; 
+    
+    grid-column: 2/3;
+    grid-row: 1/2; 
+}
+.right-card-container > *:nth-child(3){  
+    display: flex;      
+    object-fit:cover; 
+    
+    grid-column: 3/4;
+    grid-row: 1/2; 
+}
+.right-card-container > *:nth-child(4){ 
+    display: flex;      
+    object-fit:cover; 
+    
+    grid-column: 4/5;
+    grid-row: 1/2;   
+}
+.right-card-container > *:nth-child(5){   
+    display: flex;      
+    object-fit:cover; 
+    
+    grid-column: 5/6;
+    grid-row: 1/2; 
+}
+
+.right-card-container > *:nth-child(6){
+    display: flex;      
+    object-fit:cover; 
+    
+    grid-column: 1/2;
+    grid-row: 2/3;  
+}
+.right-card-container > *:nth-child(7){
+    display: flex;      
+    object-fit:cover; 
+    grid-column: 2/3;
+    grid-row: 2/3;
+} 
+.right-card-container > *:nth-child(8){
+    display: flex;      
+    object-fit:cover; 
+    grid-column: 3/4;
+    grid-row: 2/3; 
+}
+.right-card-container > *:nth-child(9){
+    display: flex;      
+    object-fit:cover; 
+    grid-column: 4/5;
+    grid-row: 2/3;  
+}
+
+.right-card-container > *:nth-child(10){
+    display: flex;      
+    object-fit:cover; 
+    grid-column: 5/6;
+    grid-row: 2/3; 
+}
+
+
+@media screen and (max-width:1348px) {
+    .card-container{  
+        background-color:#242424 !important; 
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: repeat(2, 1fr); 
+        display: grid;     
+        padding: 0;
+        margin: 0;
+    }
+
+    .left-card-container{
+        border-radius: 1rem; 
+        background-color:#302f2f !important; 
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        width: 94vw;
+        height: auto;
+        margin: 1rem;
+    }
+    .btnDoingBusinessPH { 
+        font-size: 1.1rem; 
+        width: calc(100% - 60vw);
+        padding: 1.2rem;
+        border-radius: 1rem; 
+        border-radius: 1rem;
+        border: solid;
+        border-width: 0.1rem;
+        color: rgb(255, 255, 255);
+        background-color: rgb(6, 152, 250); 
+    }
+    .right-card-container{   
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: repeat(10, 1fr); 
+        display: grid;  
+    
+        border-radius: 1rem;
+        position: relative; 
+        background-color:#302f2f !important;  
+        height: 45vh;
+        margin: 1rem;
+    } 
+       
+    .right-card-container  h2 {
+        position: absolute;
+        z-index: 1;
+        margin: 0 auto; 
+        text-align: left; 
+        color: white;
+        font-size: 0.8rem; 
+        padding:1rem;
+    } 
+
+    .right-card-container > .col {
+        height: 20vh;
+    }
+
+        
+    .right-card-container > *:nth-child(1){ 
+        display: flex;      
+        object-fit:cover; 
+        grid-column: 1/2;
+        grid-row: 1/2; 
+        background-color: red;
+    }
+    .right-card-container > *:nth-child(2){ 
+        display: flex;      
+        object-fit:cover; 
+        
+        grid-column: 1/2;
+        grid-row: 2/3; 
+    }
+    .right-card-container > *:nth-child(3){  
+        display: flex;      
+        object-fit:cover; 
+        
+        grid-column: 1/2;
+        grid-row: 3/4; 
+    }
+    .right-card-container > *:nth-child(4){ 
+        display: flex;      
+        object-fit:cover; 
+        
+        grid-column: 1/2;
+        grid-row: 4/5;   
+    }
+    .right-card-container > *:nth-child(5){   
+        display: flex;      
+        object-fit:cover; 
+        
+        grid-column: 1/2;
+        grid-row: 5/6; 
+    }
+
+    .right-card-container > *:nth-child(6){
+        display: flex;      
+        object-fit:cover; 
+        
+        grid-column: 1/2;
+        grid-row: 6/7;  
+    }
+    .right-card-container > *:nth-child(7){
+        display: flex;      
+        object-fit:cover; 
+        grid-column: 1/2;
+        grid-row: 7/8;
+    } 
+    .right-card-container > *:nth-child(8){
+        display: flex;      
+        object-fit:cover; 
+        grid-column: 1/2;
+        grid-row: 8/9; 
+    }
+    .right-card-container > *:nth-child(9){
+        display: flex;      
+        object-fit:cover; 
+        grid-column: 1/2;
+        grid-row: 9/10;  
+    }
+
+    .right-card-container > *:nth-child(10){
+        display: flex;      
+        object-fit:cover; 
+        grid-column: 1/2;
+        grid-row: 10/11; 
+    }   
+}
